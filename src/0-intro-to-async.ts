@@ -28,7 +28,7 @@ async function printWithSleepAndBlockTwice(message: string) {
   console.log("END of function body");
 }
 
-printStraightforwardly("Hello world!");
-// printWithSleepNoBlock("Hello world!");
-// printWithSleepAndBlock("Hello world!");
+//printStraightforwardly("Hello world!");
+//printWithSleepNoBlock("Hello world!");
+printWithSleepAndBlock("Hello world!");
 // printWithSleepAndBlockTwice("Hello world!");
